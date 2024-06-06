@@ -1,24 +1,3 @@
-/*
-function login() {
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
-
-    var storedUsername = localStorage.getItem("username");
-    var storedPassword = localStorage.getItem("password");
-
-    if (username === storedUsername && password === storedPassword) {
-        window.location.href = "notes.html";
-    } else {
-        alert("Nome de usuário ou senha incorretos.");
-    }
-}
-
-function logout() {
-    localStorage.removeItem("username");
-    localStorage.removeItem("password");
-    window.location.href = "index.html";
-}*/
-
 // Função para salvar uma nova nota
 function saveNote() {
     var noteContent = document.querySelector('textarea[name="content"]').value;
