@@ -83,7 +83,7 @@ body {
 }
 
 .button span:after {
-  content: ' de graça';
+  content: 'de graça';
   position: absolute;
   opacity: 0;
   top: 0;
@@ -97,7 +97,7 @@ body {
 
 .button:hover span:after {
   opacity: 1;
-  right: 0;
+  right: -6px;
 }
 
 .features {
