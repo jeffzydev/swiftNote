@@ -120,3 +120,8 @@ body {
 .social-icons a:hover {
   color: #0ba360;
 }
+@media (max-width: 760px){
+  .main-home {
+    margin: 8rem 0 0 0;
+  }
+}
