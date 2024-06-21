@@ -99,7 +99,10 @@ body {
   opacity: 1;
   right: -6px;
 }
-
+.title {
+  font-size: 50px;
+  letter-spacing: 8px;
+}
 .features {
   color: white;
   padding: 4rem 0;
@@ -107,8 +110,10 @@ body {
 }
 
 .footer {
+  margin-top: 4rem;
+  padding: 5rem 0;
+  background-color: black;
   text-align: center;
-  padding: 2rem 0;
 }
 
 .social-icons a {
@@ -120,8 +125,13 @@ body {
 .social-icons a:hover {
   color: #0ba360;
 }
-@media (max-width: 760px){
-  .main-home {
-    margin: 8rem 0 0 0;
-  }
-}
+
+@media (max-width: 760px){
+
+  .main-home {
+
+    margin: 8rem 0 0 0;
+
+  }
+
+}
